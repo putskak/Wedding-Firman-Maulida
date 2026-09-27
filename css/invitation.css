@@ -227,7 +227,6 @@
 }
 
 .couple-names {
-  justify-content: center;
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
   align-items: center;
@@ -686,8 +685,10 @@
   }
 
   .couple-divider {
+    justify-self: center;
     font-size: 2.2rem;
     line-height: 0.8;
+    text-align: center;
   }
 
   .couple-name h3 {
